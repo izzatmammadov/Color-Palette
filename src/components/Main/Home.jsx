@@ -12,7 +12,7 @@ export const Home = () => {
       <Navbar />
 
       {colors.length > 0 ? colors.map((item) => (
-        <section className="shadow bg-light mt-5 py-2 w-75 mx-auto text-center d-flex flex-column gap-3">
+        <section className="shadow rounded bg-light my-5 py-2 w-75 mx-auto text-center d-flex flex-column gap-3">
           <h1>{item?.name}</h1>
 
           <div className=" d-flex justify-content-center align-items-center gap-3 flex-wrap p-4 rounded">
